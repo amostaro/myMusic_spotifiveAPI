@@ -5,7 +5,8 @@ import com.ciandt.summit.bootcamp2022.infrastructure.configuration.security.dto.
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 
-@FeignClient(name ="token-autentication", url="localhost:8081")
+//@FeignClient(name ="token-autentication", url="localhost:8081")
+@FeignClient(name ="token-autentication", url="https://grupo5-tokenprovider.herokuapp.com/")
 public interface AuthenticationApiIntegration {
 
     @PostMapping("/api/v1/token")
