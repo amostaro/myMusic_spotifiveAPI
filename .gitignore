@@ -47,7 +47,6 @@ logs/
 /out
 out\production\trabalho-final-modulo1\view
 *.jpb
-MyMusic.db
 
 ##############################
 ## Eclipse
