@@ -1,6 +1,6 @@
-projectKey=spotfive
+projectKey=amostaro_myMusic_spotifiveAPI
 serverUrl=http://localhost:9000
 serverVersion=9.6.1.59531
-dashboardUrl=http://localhost:9000/dashboard?id=spotfive
+dashboardUrl=http://localhost:9000/dashboard?id=amostaro_myMusic_spotifiveAPI
 ceTaskId=AYMPQzgypNF60cBWPxBs
 ceTaskUrl=http://localhost:9000/api/ce/task?id=AYMPQzgypNF60cBWPxBs
