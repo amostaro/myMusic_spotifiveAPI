@@ -12,7 +12,7 @@ public interface AuthenticationApiIntegration {
     String getToken();
 
     @PostMapping("/api/v1/token/authorizer")
-    String isValidToken(CreateAuthorizerRequest createAuthorizerRequestData);
+    void isValidToken(CreateAuthorizerRequest createAuthorizerRequestData);
 
 
 }
